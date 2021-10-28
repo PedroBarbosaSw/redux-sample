@@ -7,8 +7,14 @@ function App() {
       <div className="App">
          <h1>React-Redux Exercise (Sample)</h1>
          <div className="linha">
-            <Card />
-
+            <Card title="Card 1" red>
+               X
+            </Card>
+         </div>
+         <div className="linha">
+            <Card title="Card 2" purple>
+               Y
+            </Card>
          </div>
       </div>
    );
